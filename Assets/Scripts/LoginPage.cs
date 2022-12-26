@@ -12,6 +12,7 @@ public class LoginPage : MonoBehaviour
 
     public Slider slider;
     public TMP_InputField address;
+    public TMP_InputField port;
     public TMP_InputField nameInput;
     public Color nameColor = Color.red;
     public TextMeshProUGUI text;
@@ -23,11 +24,12 @@ public class LoginPage : MonoBehaviour
         playerColor = Color.HSVToRGB(slider.value, 1, 1);
         playerName = nameInput.text;
         text.color = playerColor;
+        NetworkManager.singleton.networkAddress = address.text;
     }
 
     public void hostServer()
     {
-        NetworkManager.singleton.networkAddress = address.text;
+        NetworkManager.singleton.GetComponent<TelepathyTransport>().port = ushort.Parse(port.text);
         NetworkManager.singleton.StartHost();
         loginPage.SetActive(false);
         chatPage.SetActive(true);
@@ -37,6 +39,7 @@ public class LoginPage : MonoBehaviour
     public void joinServer()
     {
         NetworkManager.singleton.networkAddress = address.text;
+        NetworkManager.singleton.GetComponent<TelepathyTransport>().port = ushort.Parse(port.text);
         NetworkManager.singleton.StartClient();
         loginPage.SetActive(false);
         chatPage.SetActive(true);

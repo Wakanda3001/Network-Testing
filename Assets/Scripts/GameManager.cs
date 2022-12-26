@@ -16,17 +16,7 @@ public class GameManager : NetworkBehaviour {
     {
         instance = this;
     }
-    /*
-    public override void OnStartClient()
-    {
-        base.OnStartClient();
-        if(isClientOnly)
-        {
-            Debug.Log(Player.localPlayer);
-            CmdRequestChatHistory(Player.localPlayer);
-        }
-    }
-     */
+
 
     private void Update()
     {
@@ -76,7 +66,5 @@ public class GameManager : NetworkBehaviour {
     {
         text.text = chatHistory;
     }
-
-
 
 }
