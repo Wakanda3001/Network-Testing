@@ -105,6 +105,11 @@ Library: lib_burst_generated
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
+--compilation-defines=DEVELOPMENT_BUILD
+--compilation-defines=ENABLE_PROFILER
+--compilation-defines=DEBUG
+--compilation-defines=TRACE
+--compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -146,6 +151,7 @@ Library: lib_burst_generated
 --compilation-defines=MIRROR_2022_9_OR_NEWER
 --compilation-defines=MIRROR_2022_10_OR_NEWER
 --compilation-defines=MIRROR_70_0_OR_NEWER
+--compilation-defines=STEAMWORKS_NET
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -163,6 +169,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="Networking Test_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
+--debug=Full
 --output=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
@@ -178,8 +185,10 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Mirror.Components.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\com.rlabrecque.steamworks.net.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\FizzySteamworks.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Mirror.Transports.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Telepathy.dll
@@ -316,6 +325,11 @@ Library: lib_burst_generated
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
+--compilation-defines=DEVELOPMENT_BUILD
+--compilation-defines=ENABLE_PROFILER
+--compilation-defines=DEBUG
+--compilation-defines=TRACE
+--compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -357,6 +371,7 @@ Library: lib_burst_generated
 --compilation-defines=MIRROR_2022_9_OR_NEWER
 --compilation-defines=MIRROR_2022_10_OR_NEWER
 --compilation-defines=MIRROR_70_0_OR_NEWER
+--compilation-defines=STEAMWORKS_NET
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -374,6 +389,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="Networking Test_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
+--debug=Full
 --output=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
@@ -389,8 +405,10 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Mirror.Components.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\com.rlabrecque.steamworks.net.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
+--root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\FizzySteamworks.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Mirror.Transports.dll
 --root-assembly=C:\Users\wakan\Unity Projects\Networking Test\Temp\StagingArea\Data\Managed\Telepathy.dll
